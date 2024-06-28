@@ -321,7 +321,7 @@ export default function CreateListing() {
             </button>
           </div>
           <button className="p-3 bg-slate-700 text-white rounded-lg uppercase hover:opacity-95 disabled:opacity-80" disabled={isImageUploading}>
-            {loading ? 'Creating...':'Update listing'}
+            {loading ? 'Updating...':'Update listing'}
           </button>
           {error && <p className="text-red-700 text-sm"> {error} </p>}
           {/* Section to display uploaded images */}
